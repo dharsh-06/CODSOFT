@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MY Portfolio</title>
+     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="port.css">
 </head>
 <body>
@@ -15,7 +16,7 @@
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="contact">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         <a href="#contact" class="contact-button">Contact</a>
@@ -30,6 +31,7 @@
         </p>
         <div class="hero-buttons">
             <a href="#contact" class="btn primary">Contact Me</a>
+            <a href="#resume" class="btn">My Resume</a>
         </div>
     </section>
     <section id="about" class="about">
@@ -56,6 +58,46 @@
             <span class="skill-tag">&#x1F310;Git&GitHub</span>
             <span class="skill-tag">&#x1F523;C</span>
             <span class="skill-tag">&#x2795;&#x2795;C++</span>
+        </div>
+    </section>
+    <section id="projects"  class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>Personal portfolio built with HTML,CSS.</p>
+                <a href="https://dharsh-06.github.io/CODSOFT/portfolio/" target="_blank" class="project-btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Landing Page</h3>
+                <p>Modern landing page with concept of CodeInPurple using HTML,CSS.</p>
+                <a href="https://dharsh-06.github.io/CODSOFT/landingspace/" target="_blank" class="project-btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Calculator</h3>
+                <p>Calculator built in theme of purple calculator with HTML,CSS,JavaScript for basic math functions.</p>
+                <a href="https://dharsh-06.github.io/CODSOFT/calculator/" target="_blank" class="project-btn">View Project</a>
+            </div>
+        </div>
+    </section>
+    <section class="contact-section" id="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="contact-icons">
+            <a href="https://linkedin.com" target="_blank" title="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com" target="_blank" title="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="tel:+1234567890" title="Call Me">
+                <i class="fab fa-phone-alt"></i>
+            </a>
         </div>
     </section>
 </body>

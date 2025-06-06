@@ -31,16 +31,6 @@ nav{
     height: 100px;
     width: auto;
 }
-#menu-toggle{
-    display: none;
-}
-.hamburger{
-    display: none;
-    font-size: 28px;
-    cursor: pointer;
-    color: #000;
-}
-
 .menu a{
     text-decoration: none;
     font-size: 20px;
@@ -49,7 +39,6 @@ nav{
     margin: 5px;
     border-radius: 20px 0px 20px 0px;
 }
-
 .container{
     display: flex;
     justify-content: space-between;
@@ -64,7 +53,6 @@ nav{
     text-align: left;
     padding-left: 40px;
 }
-
 .left h1{
     font-size: 30px;
     margin-bottom: 10px;
@@ -73,12 +61,10 @@ nav{
     max-width: 450px;
     padding-left: 70px;
 }
-
 .left p{
     font-size: 20px;
     margin-bottom: 20px;
 }
-
 button{
     background-color: #9b59b6;
     padding: 10px;
@@ -95,7 +81,6 @@ button{
     height: 350px;
     border-radius: 30px;
 }
-
 .signup-wrapper{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -106,7 +91,6 @@ button{
     align-items: flex-start;
     
 }
-
 .left-panel{
     background-color: #f3eaff;
     border-radius: 12px;
